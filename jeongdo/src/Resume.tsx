@@ -1,7 +1,10 @@
 import Header from "./components/Header";
 import Introduce from "./components/Introduce";
+import ProjectDesc from "./components/Project/ProejctDesc";
 import ProjectInfo from "./components/Project/ProjectInfo";
+import { IProjectInfo } from "./input/project";
 import Title from "./components/Title";
+import { PROJECT } from "./input/project";
 import { S } from "./style";
 
 const Resume = () => {
@@ -12,13 +15,14 @@ const Resume = () => {
         <S.ContentWrapper>
           <Introduce />
           <Title title="Project." />
-          <ProjectInfo
-            img_url="./assets/BAEKER.png"
-            title="BAEKER"
-            period="23. 06 - 23. 10"
-            github="www.naver.com"
-            deploy="www.naver.com"
-          />
+          <>
+            {PROJECT.map((project_info: IProjectInfo) => (
+              <S.ProjectContainer>
+                <ProjectInfo info={project_info.INFO} />
+                <ProjectDesc desc={project_info.DESC} />
+              </S.ProjectContainer>
+            ))}
+          </>
         </S.ContentWrapper>
       </S.ContentContainer>
     </>

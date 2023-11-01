@@ -1,23 +1,21 @@
 import { S } from "./style";
 import { SVG } from "../SVG";
+import { IInfo } from "../../input/project";
 
 interface IProps {
-  img_url: string;
-  title: string;
-  period: string;
-  github: string;
-  deploy: string;
+  info: IInfo;
 }
 
-const ProjectInfo = ({ title, period, github, deploy }: IProps) => {
+const ProjectInfo = ({ info }: IProps) => {
+  const { TITLE, PERIOD, GITHUB, DEPLOY } = info;
   return (
     <S.InfoContainer>
       <S.InfoImg />
-      <S.InfoTitle>{title}</S.InfoTitle>
-      <S.InfoPeriod>{period}</S.InfoPeriod>
+      <S.InfoTitle>{TITLE}</S.InfoTitle>
+      <S.InfoPeriod>{PERIOD}</S.InfoPeriod>
       <S.LinkContianer>
-        <a href={github}>{SVG.Github}</a>
-        <a href={deploy}>{SVG.Deploy}</a>
+        <a href={GITHUB}>{SVG.Github}</a>
+        <a href={DEPLOY}>{SVG.Deploy}</a>
       </S.LinkContianer>
     </S.InfoContainer>
   );

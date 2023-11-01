@@ -9,7 +9,13 @@ const ContentContainer = styled.div`
 `;
 
 const ContentWrapper = styled.div`
-  width: 60%;
+  width: 56%;
 `;
 
-export const S = { ContentContainer, ContentWrapper };
+const ProjectContainer = styled.section`
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+`;
+
+export const S = { ContentContainer, ContentWrapper, ProjectContainer };

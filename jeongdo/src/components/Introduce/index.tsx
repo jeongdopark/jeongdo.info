@@ -1,12 +1,5 @@
 import { S } from "./style";
-
-const ABOUT_ME = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maioreseligendi",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maioreseligendi",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maioreseligendi",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maioreseligendi",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maioreseligendi",
-];
+import { INTRODUCE } from "../../input/introduce";
 
 const Introduce = () => {
   return (
@@ -21,15 +14,15 @@ const Introduce = () => {
               프론트엔드 개발자 <span>박정도</span>입니다.
             </S.Text>
             <S.LinkWrapper>
-              <S.Link>Email</S.Link>
               <S.Link href="https://github.com/jeongdopark">Github</S.Link>
               <S.Link href="https://parkjeongdo.tistory.com/">Blog</S.Link>
+              <S.Link href="https://github.com/jeongdopark">Portfolio</S.Link>
             </S.LinkWrapper>
           </S.TextContainer>
         </S.TopContainer>
         <S.Ul>
-          {ABOUT_ME.map((e, index) => (
-            <li key={index}>{e}</li>
+          {INTRODUCE.map((text: string, index: number) => (
+            <li key={index}>{text}</li>
           ))}
         </S.Ul>
       </S.Container>
