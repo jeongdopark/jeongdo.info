@@ -1,5 +1,15 @@
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
+const GlobalStyles = createGlobalStyle`
+${reset}
+`;
 
+const ResumeContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`;
 const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -12,4 +22,9 @@ const ContentWrapper = styled.div`
   width: 56%;
 `;
 
-export const S = { ContentContainer, ContentWrapper };
+export const S = {
+  ResumeContainer,
+  ContentContainer,
+  ContentWrapper,
+  GlobalStyles,
+};

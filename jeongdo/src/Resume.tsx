@@ -4,12 +4,11 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Introduce from "./components/Introduce";
 import Project from "./components/Project";
-
 import { S } from "./style";
 
 const Resume = () => {
   return (
-    <>
+    <S.ResumeContainer>
       <Header title="Jeongdo Park" />
       <S.ContentContainer>
         <S.ContentWrapper>
@@ -20,7 +19,7 @@ const Resume = () => {
         </S.ContentWrapper>
       </S.ContentContainer>
       <Footer />
-    </>
+    </S.ResumeContainer>
   );
 };
 
