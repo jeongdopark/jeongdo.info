@@ -5,7 +5,7 @@ export interface IEducation {
 
 export const EDUCATION_LIST: IEducation[] = [
   {
-    TITLE: "인천 대학교",
+    TITLE: "인천대학교",
     PERIOD: "16. 02 - 23. 08",
   },
 ];

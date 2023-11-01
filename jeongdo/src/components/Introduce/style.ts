@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { THEME } from "../../theme";
 
 const Container = styled.div`
   margin-top: 100px;
@@ -20,13 +21,7 @@ const Text = styled.p`
   font-weight: 600;
 
   span {
-    background: linear-gradient(
-      to right,
-      #111 0%,
-      #999 33%,
-      #666 66%,
-      #222 100%
-    );
+    background: ${THEME.BACKGROUND.BLOG};
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
