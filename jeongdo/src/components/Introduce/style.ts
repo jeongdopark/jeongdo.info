@@ -8,11 +8,10 @@ const Container = styled.div`
   flex-direction: column;
 `;
 
-const Image = styled.div`
+const Image = styled.img`
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background-color: black;
   margin-right: 50px;
 `;
 
@@ -55,6 +54,7 @@ const TextContainer = styled.div`
 
 const TopContainer = styled.div`
   display: flex;
+  margin-bottom: 50px;
 `;
 
 const Ul = styled.ul`

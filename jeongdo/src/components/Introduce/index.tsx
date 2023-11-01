@@ -1,12 +1,13 @@
 import { S } from "./style";
+import ProjectSummary from "../Project/ProjectSummary";
+import Photo from "../../assets/Photo.png";
 import { INTRODUCE } from "../../input/introduce";
-
 const Introduce = () => {
   return (
     <>
       <S.Container>
         <S.TopContainer>
-          <S.Image />
+          <S.Image src={Photo} />
           <S.TextContainer>
             <S.Text>
               안녕하세요,
@@ -20,11 +21,7 @@ const Introduce = () => {
             </S.LinkWrapper>
           </S.TextContainer>
         </S.TopContainer>
-        <S.Ul>
-          {INTRODUCE.map((text: string, index: number) => (
-            <li key={index}>{text}</li>
-          ))}
-        </S.Ul>
+        <ProjectSummary summary={INTRODUCE} />
       </S.Container>
     </>
   );

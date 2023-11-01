@@ -11,7 +11,7 @@ const Tag = styled.div<Props>`
   background-color: ${(props) => props.background};
   color: ${(props) => props.color};
   font-size: ${(props) => props.font || "15px"};
-  padding: 3px 5px;
+  padding: 1px 2px;
   font-weight: ${(props) => props.weight || "500"};
   border-radius: ${THEME.RADIUS.S};
   cursor: ${(props) => (props.weight ? "pointer" : "normal")};

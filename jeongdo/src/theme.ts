@@ -4,6 +4,7 @@ export const THEME = {
     TECH_STACK: "#212529",
     BLOG: "#1B77FF",
     BLACK: "#121212",
+    HIGHLIGHT: "#EBE6EB",
   },
   COLOR: {
     WHITE: "#FFFFFF",
