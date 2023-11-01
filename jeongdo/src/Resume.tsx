@@ -1,7 +1,8 @@
+import Activity from "./components/Activity";
 import Header from "./components/Header";
 import Introduce from "./components/Introduce";
 import Project from "./components/Project";
-import Title from "./components/Title";
+
 import { S } from "./style";
 
 const Resume = () => {
@@ -11,8 +12,8 @@ const Resume = () => {
       <S.ContentContainer>
         <S.ContentWrapper>
           <Introduce />
-          <Title title="Project." />
           <Project />
+          <Activity />
         </S.ContentWrapper>
       </S.ContentContainer>
     </>
