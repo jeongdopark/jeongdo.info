@@ -13,5 +13,6 @@ export const INTRODUCE = (
     <br />
     그만큼 소통이 중요하다 생각하며,
     <TagBox text="부드럽지만 정확한" type="HIGHLIGHT" /> 의사 표현을 지향합니다.
+    <br />
   </span>
 );

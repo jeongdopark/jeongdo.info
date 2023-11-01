@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { THEME } from "../../theme";
+import { THEME } from "../../style/theme";
+import { DEVICE } from "../../style/media";
 
 const InfoContainer = styled.div`
   display: flex;
@@ -7,6 +8,21 @@ const InfoContainer = styled.div`
   width: 25%;
   height: 230px;
   justify-content: space-around;
+
+  @media ${DEVICE.small} {
+    flex-direction: row;
+    justify-content: start;
+    height: auto;
+  }
+`;
+
+const InfoBox = styled.div`
+  @media ${DEVICE.small} {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 30px;
+  }
 `;
 
 const InfoImg = styled.img`
@@ -21,11 +37,17 @@ const InfoImg = styled.img`
 const InfoTitle = styled.span`
   font-size: 1.5rem;
   font-weight: bold;
+  white-space: nowrap;
 `;
 
 const InfoPeriod = styled.span`
   font-size: ${THEME.FONT_SIZE.M};
   font-weight: 500;
+  white-space: nowrap;
+
+  @media ${DEVICE.small} {
+    font-size: ${THEME.FONT_SIZE.MS};
+  }
 `;
 
 const InfoParticipant = styled(InfoPeriod)``;
@@ -43,6 +65,13 @@ const DescContainer = styled.div`
   flex-direction: column;
   padding-left: 15px;
   border-left: 1px solid ${THEME.BACKGROUND.SUMMARY};
+
+  @media ${DEVICE.small} {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
 `;
 
 const Summary = styled.div`
@@ -56,6 +85,12 @@ const Summary = styled.div`
   line-height: 19px;
   font-weight: ${THEME.FONT_WEIGHT.S};
   background-color: ${THEME.BACKGROUND.SUMMARY};
+  @media ${DEVICE.small} {
+    margin-bottom: 5px;
+  }
+  @media ${DEVICE.xsmall} {
+    font-size: ${THEME.FONT_SIZE.S};
+  }
 `;
 
 const TechStackContainer = styled.div`
@@ -73,12 +108,20 @@ const Li = styled.li`
   margin-left: 20px;
   margin-bottom: 13px;
   font-size: ${THEME.FONT_SIZE.M};
+  @media ${DEVICE.small} {
+    font-size: ${THEME.FONT_SIZE.MS};
+  }
 `;
 
 const ProjectContainer = styled.section`
   display: flex;
   width: 100%;
   margin-top: 50px;
+
+  @media ${DEVICE.small} {
+    flex-direction: column;
+    align-items: start;
+  }
 `;
 
 export const S = {
@@ -94,4 +137,5 @@ export const S = {
   InfoTitle,
   InfoPeriod,
   LinkContianer,
+  InfoBox,
 };

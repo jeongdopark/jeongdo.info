@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Introduce from "./components/Introduce";
 import Project from "./components/Project";
-import { S } from "./style";
+import { S } from "./style/style";
 
 const Resume = () => {
   return (

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { THEME } from "../../theme";
+import { THEME } from "../../style/theme";
+import { DEVICE } from "../../style/media";
 
 const ActivityContainer = styled.section`
   display: flex;
@@ -9,9 +10,13 @@ const ActivityContainer = styled.section`
 `;
 
 const ActivityTitle = styled.h1`
-  font-size: 2rem;
+  font-size: ${THEME.TITLE.M};
   font-weight: 600;
   margin-bottom: 9px;
+
+  @media ${DEVICE.small} {
+    font-size: ${THEME.TITLE.S};
+  }
 `;
 
 const ActivityPeriod = styled.span`
@@ -36,6 +41,10 @@ const Li = styled.li`
     li {
       margin-top: 10px;
     }
+  }
+
+  @media ${DEVICE.small} {
+    font-size: ${THEME.FONT_SIZE.S};
   }
 `;
 

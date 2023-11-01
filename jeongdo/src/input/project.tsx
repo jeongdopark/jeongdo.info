@@ -42,7 +42,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           설계를 하였습니다.
         </span>,
         <span>
-          <TagBox text="AWS" type="HIGHLIGHT" />에 배포를 진행했습
+          <TagBox text="AWS" type="HIGHLIGHT" />에 배포를 진행했니다.
         </span>,
       ],
     },
@@ -203,14 +203,9 @@ export const PROJECT_LIST: IProjectInfo[] = [
     DESC: {
       SUMMARY: (
         <>
-          <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
-            text="Numble 🔗"
-            type="BLOG"
-          />
-          에서 제공해준 기획서 따라 구현 (과제 구현 방식)
+          <span>
+            개인 맞춤형 일러스트/그림/디자인을 제작 의뢰하는 서비스입니다.
+          </span>
         </>
       ),
       STACK: ["React", "Typescript", "React-Query", "Styled-Components"],

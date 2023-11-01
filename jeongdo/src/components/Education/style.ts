@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { THEME } from "../../theme";
+import { THEME } from "../../style/theme";
+import { DEVICE } from "../../style/media";
 
 const EducationContainer = styled.section`
   display: flex;
@@ -9,9 +10,13 @@ const EducationContainer = styled.section`
 `;
 
 const EducationTitle = styled.h1`
-  font-size: 2rem;
+  font-size: ${THEME.TITLE.M};
   font-weight: 600;
   margin-bottom: 8px;
+
+  @media ${DEVICE.small} {
+    font-size: ${THEME.TITLE.S};
+  }
 `;
 
 const EducationPeriod = styled.span`

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { THEME } from "../../theme";
+import { THEME } from "../../style/theme";
+import { DEVICE } from "../../style/media";
 
 const Container = styled.div`
   margin-top: 100px;
@@ -13,10 +14,18 @@ const Image = styled.img`
   height: 170px;
   border-radius: 50%;
   margin-right: 50px;
+  @media ${DEVICE.medium} {
+    margin-bottom: 30px;
+  }
+
+  @media ${DEVICE.small} {
+    width: 120px;
+    height: 120px;
+  }
 `;
 
 const Text = styled.p`
-  font-size: 2.5rem;
+  font-size: ${THEME.TITLE.L};
   font-weight: 600;
 
   span {
@@ -24,6 +33,14 @@ const Text = styled.p`
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+  }
+
+  @media ${DEVICE.medium} {
+    font-size: ${THEME.TITLE.M};
+  }
+
+  @media ${DEVICE.small} {
+    font-size: ${THEME.TITLE.S};
   }
 `;
 
@@ -55,6 +72,12 @@ const TextContainer = styled.div`
 const TopContainer = styled.div`
   display: flex;
   margin-bottom: 50px;
+
+  @media ${DEVICE.medium} {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 `;
 
 const Ul = styled.ul`

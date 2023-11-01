@@ -1,5 +1,5 @@
 import { S } from "./style";
-import { THEME } from "../../theme";
+import { THEME } from "../../style/theme";
 interface IProps {
   clickHandler?: () => void;
   text: string;

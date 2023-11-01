@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
+import { DEVICE } from "./media";
+import { THEME } from "./theme";
 const GlobalStyles = createGlobalStyle`
 ${reset}
 li {
@@ -24,11 +26,21 @@ const ContentContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 200px;
+  padding: 20px;
 `;
 
 const ContentWrapper = styled.div`
-  width: 56%;
+  width: ${THEME.WRAPPER.L};
+  @media ${DEVICE.medium} {
+    width: ${THEME.WRAPPER.M};
+  }
+
+  @media ${DEVICE.small} {
+    width: ${THEME.WRAPPER.S};
+  }
+  @media ${DEVICE.xsmall} {
+    width: ${THEME.WRAPPER.XS};
+  }
 `;
 
 export const S = {

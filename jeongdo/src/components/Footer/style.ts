@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { THEME } from "../../theme";
+import { THEME } from "../../style/theme";
 
 const Footer = styled.footer`
   display: flex;

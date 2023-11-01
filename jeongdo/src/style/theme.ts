@@ -17,11 +17,24 @@ export const THEME = {
   },
   FONT_SIZE: {
     S: "12px",
+    MS: "13px",
     M: "15px",
   },
   FONT_WEIGHT: {
     S: "500",
     M: "600",
     L: "700",
+  },
+  WRAPPER: {
+    XS: "300px",
+    S: "450px",
+    M: "650px",
+    L: "820px",
+  },
+  TITLE: {
+    S: "1.4rem",
+
+    M: "2rem",
+    L: "2.7rem",
   },
 };
