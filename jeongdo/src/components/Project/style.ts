@@ -15,6 +15,7 @@ const InfoImg = styled.img`
   margin-bottom: 20px;
   background-color: ${THEME.BACKGROUND.BLACK};
   border-radius: 10px;
+  border: none;
 `;
 
 const InfoTitle = styled.span`
@@ -23,9 +24,11 @@ const InfoTitle = styled.span`
 `;
 
 const InfoPeriod = styled.span`
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: ${THEME.FONT_SIZE.M};
+  font-weight: 500;
 `;
+
+const InfoParticipant = styled(InfoPeriod)``;
 
 const LinkContianer = styled.div`
   display: flex;
@@ -43,12 +46,14 @@ const DescContainer = styled.div`
 `;
 
 const Summary = styled.div`
+  display: flex;
+  align-items: center;
   width: 100%;
   padding: 15px;
   min-height: 50px;
+  font-size: ${THEME.FONT_SIZE.M};
   border-radius: ${THEME.RADIUS.M};
   background-color: ${THEME.BACKGROUND.SUMMARY};
-  line-height: 25px;
 `;
 
 const TechStackContainer = styled.div`
@@ -65,6 +70,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   margin-left: 20px;
   margin-bottom: 13px;
+  font-size: ${THEME.FONT_SIZE.M};
 `;
 
 const ProjectContainer = styled.section`
@@ -74,6 +80,7 @@ const ProjectContainer = styled.section`
 `;
 
 export const S = {
+  InfoParticipant,
   ProjectContainer,
   Ul,
   Li,

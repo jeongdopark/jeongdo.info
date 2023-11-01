@@ -7,16 +7,24 @@ interface IProps {
 }
 
 const ProjectInfo = ({ info }: IProps) => {
-  const { TITLE, PERIOD, GITHUB, DEPLOY } = info;
+  const { PARTICIPANT, IMG_URL, TITLE, PERIOD, GITHUB, DEPLOY } = info;
   return (
     <S.InfoContainer>
-      <S.InfoImg />
+      <S.InfoImg src={IMG_URL} />
       <S.InfoTitle>{TITLE}</S.InfoTitle>
-      <S.InfoPeriod>{PERIOD}</S.InfoPeriod>
+
       <S.LinkContianer>
-        <a href={GITHUB}>{SVG.Github}</a>
-        <a href={DEPLOY}>{SVG.Deploy}</a>
+        <a href={GITHUB} target="_blank">
+          {SVG.Github}
+        </a>
+        {DEPLOY && (
+          <a href={DEPLOY} target="_blank">
+            {SVG.Deploy}
+          </a>
+        )}
       </S.LinkContianer>
+      <S.InfoParticipant>{PARTICIPANT}</S.InfoParticipant>
+      <S.InfoPeriod>{PERIOD}</S.InfoPeriod>
     </S.InfoContainer>
   );
 };

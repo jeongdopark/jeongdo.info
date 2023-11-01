@@ -10,8 +10,8 @@ type Props = {
 const Tag = styled.div<Props>`
   background-color: ${(props) => props.background};
   color: ${(props) => props.color};
-  font-size: ${(props) => props.font || "15px"};
-  padding: 1px 2px;
+  font-size: ${(props) => props.font || THEME.FONT_SIZE.M};
+  padding: 1px 5px;
   font-weight: ${(props) => props.weight || "500"};
   border-radius: ${THEME.RADIUS.S};
   cursor: ${(props) => (props.weight ? "pointer" : "normal")};

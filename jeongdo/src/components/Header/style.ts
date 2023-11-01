@@ -7,7 +7,8 @@ const Header = styled.header`
   font-size: 1.6rem;
   color: white;
   font-weight: 700;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   line-height: 80px;
 `;
 
