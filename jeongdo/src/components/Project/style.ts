@@ -53,6 +53,8 @@ const Summary = styled.div`
   min-height: 50px;
   font-size: ${THEME.FONT_SIZE.M};
   border-radius: ${THEME.RADIUS.M};
+  line-height: 19px;
+  font-weight: ${THEME.FONT_WEIGHT.S};
   background-color: ${THEME.BACKGROUND.SUMMARY};
 `;
 

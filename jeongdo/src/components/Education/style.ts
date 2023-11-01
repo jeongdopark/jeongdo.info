@@ -11,10 +11,12 @@ const EducationContainer = styled.section`
 const EducationTitle = styled.h1`
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 8px;
 `;
 
 const EducationPeriod = styled.span`
   font-size: ${THEME.FONT_SIZE.M};
+  margin-bottom: 6px;
 `;
 
 const EducationWrapper = styled.div`

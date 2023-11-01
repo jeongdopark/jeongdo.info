@@ -15,9 +15,18 @@ const Introduce = () => {
               프론트엔드 개발자 <span>박정도</span>입니다.
             </S.Text>
             <S.LinkWrapper>
-              <S.Link href="https://github.com/jeongdopark">Github</S.Link>
-              <S.Link href="https://parkjeongdo.tistory.com/">Blog</S.Link>
-              <S.Link href="https://github.com/jeongdopark">Portfolio</S.Link>
+              <S.Link href="https://github.com/jeongdopark" target="_blank">
+                Github
+              </S.Link>
+              <S.Link href="https://parkjeongdo.tistory.com/" target="_blank">
+                Blog
+              </S.Link>
+              <S.Link
+                href="https://jeongdopark.notion.site/Portfolio-f8a581ab604144fa8c8acb8ad7e23b0b?pvs=4"
+                target="_blank"
+              >
+                Portfolio
+              </S.Link>
             </S.LinkWrapper>
           </S.TextContainer>
         </S.TopContainer>

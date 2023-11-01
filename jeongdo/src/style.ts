@@ -3,6 +3,15 @@ import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 const GlobalStyles = createGlobalStyle`
 ${reset}
+li {
+  list-style-type: disc;
+}
+
+ol{
+  padding-inline-start: 20px;
+}
+
+
 `;
 
 const ResumeContainer = styled.div`

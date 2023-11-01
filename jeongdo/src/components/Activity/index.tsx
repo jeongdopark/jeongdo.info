@@ -20,7 +20,7 @@ const Activity = () => {
               ))}
             </S.LinkContainer>
             <S.Ul>
-              {activity.DESC.map((desc: string) => (
+              {activity.DESC.map((desc: React.ReactNode) => (
                 <S.Li>{desc}</S.Li>
               ))}
             </S.Ul>

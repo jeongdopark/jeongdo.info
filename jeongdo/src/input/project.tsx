@@ -38,7 +38,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
       STACK: ["React", "Styled-Components", "Typescript"],
       CONTRIBUTION: [
         <span>
-          <TagBox text="단일 책임 원칙" type="HIGHLIGHT" />을 지키며 컴포넌트
+          <TagBox text="단일 책임 원칙" type="HIGHLIGHT" />을 적용하여 컴포넌트
           설계를 하였습니다.
         </span>,
         <span>

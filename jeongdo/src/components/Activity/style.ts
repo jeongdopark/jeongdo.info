@@ -11,10 +11,12 @@ const ActivityContainer = styled.section`
 const ActivityTitle = styled.h1`
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 9px;
 `;
 
 const ActivityPeriod = styled.span`
   font-size: ${THEME.FONT_SIZE.M};
+  margin-bottom: 4px;
 `;
 
 const LinkContainer = styled.div`
@@ -23,11 +25,18 @@ const LinkContainer = styled.div`
 
 const Ul = styled.ul`
   margin-top: 10px;
+  font-size: ${THEME.FONT_SIZE.M};
 `;
 
 const Li = styled.li`
   margin-left: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+
+  ol {
+    li {
+      margin-top: 10px;
+    }
+  }
 `;
 
 const ActivityWrapper = styled.div`
