@@ -12,10 +12,4 @@ const ContentWrapper = styled.div`
   width: 56%;
 `;
 
-const ProjectContainer = styled.section`
-  display: flex;
-  width: 100%;
-  margin-top: 50px;
-`;
-
-export const S = { ContentContainer, ContentWrapper, ProjectContainer };
+export const S = { ContentContainer, ContentWrapper };

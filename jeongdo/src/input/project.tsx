@@ -20,7 +20,7 @@ export interface IProjectInfo {
   INFO: IInfo;
 }
 
-export const PROJECT: IProjectInfo[] = [
+export const PROJECT_LIST: IProjectInfo[] = [
   {
     DESC: {
       SUMMARY: (

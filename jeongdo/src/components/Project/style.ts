@@ -67,7 +67,14 @@ const Li = styled.li`
   margin-bottom: 13px;
 `;
 
+const ProjectContainer = styled.section`
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+`;
+
 export const S = {
+  ProjectContainer,
   Ul,
   Li,
   TechStackContainer,
