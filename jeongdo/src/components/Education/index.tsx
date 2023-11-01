@@ -9,6 +9,7 @@ const Education = () => {
         {EDUCATION_LIST.map((education: IEducation) => (
           <S.EducationWrapper>
             <S.EducationTitle>{education.TITLE}</S.EducationTitle>
+            <S.EducationPeriod>{education.MAJOR}</S.EducationPeriod>
             <S.EducationPeriod>{education.PERIOD}</S.EducationPeriod>
           </S.EducationWrapper>
         ))}
