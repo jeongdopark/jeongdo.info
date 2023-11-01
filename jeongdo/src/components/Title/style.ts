@@ -10,7 +10,7 @@ const Divider = styled.div`
   width: 100%;
   height: 1px;
   background-color: gray;
-  margin-top: 10px;
+  margin-top: 5px;
 `;
 
 export const S = { Title, Divider };
