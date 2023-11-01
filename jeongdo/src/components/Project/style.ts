@@ -17,10 +17,10 @@ const InfoContainer = styled.div`
 `;
 
 const InfoBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
   @media ${DEVICE.small} {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
     margin-left: 30px;
   }
 `;
@@ -107,9 +107,12 @@ const Ul = styled.ul`
 const Li = styled.li`
   margin-left: 20px;
   margin-bottom: 13px;
-  font-size: ${THEME.FONT_SIZE.M};
+  font-size: ${THEME.FONT_SIZE.L};
   @media ${DEVICE.small} {
     font-size: ${THEME.FONT_SIZE.MS};
+  }
+  @media ${DEVICE.medium} {
+    font-size: ${THEME.FONT_SIZE.M};
   }
 `;
 

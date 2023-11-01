@@ -52,7 +52,7 @@ export const ACTIVITY_LIST: IActivity[] = [
           clickHandler={() =>
             linkHandler("https://parkjeongdo.tistory.com/110")
           }
-          text="BLOG 🔗"
+          text="BLOG"
           type="BLOG"
         />
       </span>,

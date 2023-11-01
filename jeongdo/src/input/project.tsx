@@ -78,7 +78,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/117")
             }
-            text="BLOG 🔗"
+            text="BLOG"
             type="BLOG"
           />
         </span>,
@@ -88,7 +88,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/115")
             }
-            text="BLOG 🔗"
+            text="BLOG"
             type="BLOG"
           />
         </span>,
@@ -98,7 +98,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/116")
             }
-            text="BLOG 🔗"
+            text="BLOG"
             type="BLOG"
           />
         </span>,
@@ -109,7 +109,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/112")
             }
-            text="BLOG 🔗"
+            text="BLOG"
             type="BLOG"
           />
         </span>,
@@ -168,7 +168,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/112")
             }
-            text="Numble 🔗"
+            text="Numble"
             type="BLOG"
           />
           에서 제공해준 기획서 따라 구현 (과제 구현 방식)

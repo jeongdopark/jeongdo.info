@@ -19,6 +19,7 @@ export const THEME = {
     S: "12px",
     MS: "13px",
     M: "15px",
+    L: "16px",
   },
   FONT_WEIGHT: {
     S: "500",
@@ -33,7 +34,6 @@ export const THEME = {
   },
   TITLE: {
     S: "1.4rem",
-
     M: "2rem",
     L: "2.7rem",
   },
