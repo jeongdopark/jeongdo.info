@@ -72,7 +72,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
       CONTRIBUTION: [
         <span>
           <TagBox text="합성 컴포넌트 패턴" type="HIGHLIGHT" />
-          활용하여 공톰 컴포넌트 설계
+          활용하여 공통 컴포넌트 설계
           <TagBox
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/117")
