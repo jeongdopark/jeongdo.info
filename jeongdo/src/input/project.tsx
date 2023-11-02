@@ -55,7 +55,6 @@ export const PROJECT_LIST: IProjectInfo[] = [
       DEPLOY: "https://jeongdo.info",
     },
   },
-  ,
   ////////////////////////////////////////////////////////////////////////////////
   {
     DESC: {
