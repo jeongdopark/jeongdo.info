@@ -11,7 +11,7 @@ type Props = {
 const Tag = styled.div<Props>`
   background-color: ${(props) => props.background};
   color: ${(props) => props.color};
-  font-size: ${(props) => props.font || THEME.FONT_SIZE.M};
+  font-size: ${(props) => props.font || THEME.FONT_SIZE.S};
   padding: 5px;
   font-weight: 500;
   border-radius: ${THEME.RADIUS.S};

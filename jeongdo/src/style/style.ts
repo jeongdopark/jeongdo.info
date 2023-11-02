@@ -5,6 +5,15 @@ import { DEVICE } from "./media";
 import { THEME } from "./theme";
 const GlobalStyles = createGlobalStyle`
 ${reset}
+body,
+p,
+ul,
+li,
+div,
+h1 {
+  font-family: "Noto Sans CJK KR";
+}
+
 li {
   list-style-type: disc;
 }
