@@ -38,11 +38,11 @@ export const PROJECT_LIST: IProjectInfo[] = [
       STACK: ["React", "Styled-Components", "Typescript"],
       CONTRIBUTION: [
         <span>
-          <TagBox text="단일 책임 원칙" type="HIGHLIGHT" />을 적용하여 컴포넌트
-          설계를 하였습니다.
+          <TagBox text="단일 책임 원칙" type="HIGHLIGHT" /> 고려하여 컴포넌트
+          설계
         </span>,
         <span>
-          <TagBox text="AWS" type="HIGHLIGHT" />에 배포를 진행했니다.
+          <TagBox text="AWS" type="HIGHLIGHT" /> 배포
         </span>,
       ],
     },
@@ -58,9 +58,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
   ////////////////////////////////////////////////////////////////////////////////
   {
     DESC: {
-      SUMMARY: (
-        <>알고리즘 스터디의 체계적 관리에 도움 주는 서비스, BAEKER입니다.</>
-      ),
+      SUMMARY: <>알고리즘 스터디의 체계적 관리에 도움 주는 서비스입니다.</>,
       STACK: [
         "Next.js",
         "Typescript",
