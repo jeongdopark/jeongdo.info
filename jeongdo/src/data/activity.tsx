@@ -45,9 +45,7 @@ export const ACTIVITY_LIST: IActivity[] = [
       <span>
         스프린트 회고 글 작성
         <TagBox
-          clickHandler={() =>
-            linkHandler("https://parkjeongdo.tistory.com/110")
-          }
+          clickHandler={"https://parkjeongdo.tistory.com/110"}
           text="BLOG"
           type="BLOG"
         />
