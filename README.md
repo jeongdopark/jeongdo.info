@@ -57,7 +57,6 @@ https://jeongdo.info
 ┃ ┣ 📂Title
 ┃ ┃ ┣ 📜index.tsx
 ┃ ┃ ┗ 📜style.ts
-┃ ┣ 📜.DS_Store
 ┃ ┗ 📜SVG.tsx
 ┣ 📂data
 ┃ ┣ 📜activity.tsx
@@ -66,7 +65,6 @@ https://jeongdo.info
 ┃ ┗ 📜project.tsx
 ┣ 📂style
 ┃ ┣ 📂fonts
-┃ ┃
 ┃ ┣ 📜media.ts
 ┃ ┣ 📜style.ts
 ┃ ┗ 📜theme.ts
