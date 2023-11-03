@@ -44,6 +44,9 @@ export const PROJECT_LIST: IProjectInfo[] = [
         <div>
           <TagBox text="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront 배포
         </div>,
+        <div>
+          <TagBox text="반응형" type="HIGHLIGHT" /> 구현
+        </div>,
       ],
     },
     INFO: {
