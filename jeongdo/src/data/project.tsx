@@ -33,6 +33,8 @@ export const PROJECT_LIST: IProjectInfo[] = [
         <>
           노션으로 만든 이력서를 바탕으로, 각 영역을 컴포넌트화하여
           구현했습니다.
+          <br />
+          현재 보고 계신 이력서 또한 해당 프로젝트를 PDF 출력한 것입니다.
         </>
       ),
       STACK: ["React", "Styled-Components", "Typescript"],
