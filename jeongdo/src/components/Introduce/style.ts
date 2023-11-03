@@ -10,8 +10,8 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-right: 50px;
   @media ${DEVICE.medium} {

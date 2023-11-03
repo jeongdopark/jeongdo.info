@@ -1,6 +1,6 @@
 import { S } from "./style";
 import ProjectSummary from "../Project/ProjectSummary";
-import Photo from "../../assets/Photo.png";
+import Photo from "../../assets/photo.jpg";
 import { INTRODUCE, PORTFOLIO } from "../../data/introduce";
 const Introduce = () => {
   return (

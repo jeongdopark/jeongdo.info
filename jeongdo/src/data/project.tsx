@@ -136,6 +136,10 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
       CONTRIBUTION: [
         <div>
+          <TagBox text="테스트 계정" type="HIGHLIGHT" /> ID: test@test.com, PW:
+          test1234
+        </div>,
+        <div>
           <TagBox text="팀장" type="HIGHLIGHT" />
           역할로서 데일리 스크럼 및 스프린트 계획 진행
         </div>,
