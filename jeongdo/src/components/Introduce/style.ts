@@ -29,10 +29,7 @@ const Text = styled.p`
   font-weight: 600;
 
   span {
-    background: ${THEME.BACKGROUND.BLOG};
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: ${THEME.BACKGROUND.BLOG};
   }
 
   @media ${DEVICE.medium} {
