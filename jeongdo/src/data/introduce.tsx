@@ -1,4 +1,21 @@
 import TagBox from "../components/TagBox";
+import { linkHandler } from "../utils/linkHandler";
+
+export const PORTFOLIO = (
+  <div>
+    간단한 요약을 위한 이력서 입니다. 포트폴리오는
+    <TagBox
+      clickHandler={() =>
+        linkHandler(
+          "https://www.notion.so/Portfolio-f8a581ab604144fa8c8acb8ad7e23b0b?pvs=21"
+        )
+      }
+      text="여기"
+      type="BLOG"
+    />
+    를 클릭해주세요.
+  </div>
+);
 
 export const INTRODUCE = (
   <span>

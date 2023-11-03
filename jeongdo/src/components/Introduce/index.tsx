@@ -1,7 +1,7 @@
 import { S } from "./style";
 import ProjectSummary from "../Project/ProjectSummary";
 import Photo from "../../assets/Photo.png";
-import { INTRODUCE } from "../../data/introduce";
+import { INTRODUCE, PORTFOLIO } from "../../data/introduce";
 const Introduce = () => {
   return (
     <>
@@ -30,7 +30,18 @@ const Introduce = () => {
             </S.LinkWrapper>
           </S.TextContainer>
         </S.TopContainer>
-        <ProjectSummary summary={INTRODUCE} />
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            gap: "15px",
+            justifyContent: "center",
+          }}
+        >
+          <ProjectSummary summary={PORTFOLIO} />
+          <ProjectSummary summary={INTRODUCE} />
+        </div>
       </S.Container>
     </>
   );
