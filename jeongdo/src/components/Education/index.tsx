@@ -1,10 +1,10 @@
 import { S } from "./style";
 import Title from "../Title";
-import { EDUCATION_LIST, IEducation } from "../../input/education";
+import { EDUCATION_LIST, IEducation } from "../../data/education";
 const Education = () => {
   return (
     <>
-      <Title title="Education." />
+      <Title title="Education" />
       <S.EducationContainer>
         {EDUCATION_LIST.map((education: IEducation) => (
           <S.EducationWrapper>

@@ -17,9 +17,9 @@ export const THEME = {
   },
   FONT_SIZE: {
     S: "12px",
-    MS: "13px",
-    M: "15px",
-    L: "16px",
+    M: "13px",
+    L: "14px",
+    XL: "15px",
   },
   FONT_WEIGHT: {
     S: "500",

@@ -37,20 +37,20 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ),
       STACK: ["React", "Styled-Components", "Typescript"],
       CONTRIBUTION: [
-        <span>
+        <div>
           <TagBox text="단일 책임 원칙" type="HIGHLIGHT" /> 고려하여 컴포넌트
           설계
-        </span>,
-        <span>
-          <TagBox text="AWS" type="HIGHLIGHT" /> 배포
-        </span>,
+        </div>,
+        <div>
+          <TagBox text="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront 배포
+        </div>,
       ],
     },
     INFO: {
       IMG_URL: Jeongdo,
       TITLE: "Jeongdo.info",
-      PARTICIPANT: "1인 작업",
-      PERIOD: "23. 11.01 - 23. 11.02",
+      PARTICIPANT: "개인 개발",
+      PERIOD: "23. 11.01 - 23. 11.03",
       GITHUB: "https://github.com/jeongdopark/jeongdo.info",
       DEPLOY: "https://jeongdo.info",
     },
@@ -68,7 +68,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
         "Vercel",
       ],
       CONTRIBUTION: [
-        <span>
+        <div>
           <TagBox text="합성 컴포넌트 패턴" type="HIGHLIGHT" />
           활용하여 공통 컴포넌트 설계
           <TagBox
@@ -78,8 +78,8 @@ export const PROJECT_LIST: IProjectInfo[] = [
             text="BLOG"
             type="BLOG"
           />
-        </span>,
-        <span>
+        </div>,
+        <div>
           RTK-Query에 Axios 적용
           <TagBox
             clickHandler={() =>
@@ -88,8 +88,8 @@ export const PROJECT_LIST: IProjectInfo[] = [
             text="BLOG"
             type="BLOG"
           />
-        </span>,
-        <span>
+        </div>,
+        <div>
           Axios Interceptor 활용
           <TagBox
             clickHandler={() =>
@@ -98,8 +98,8 @@ export const PROJECT_LIST: IProjectInfo[] = [
             text="BLOG"
             type="BLOG"
           />
-        </span>,
-        <span>
+        </div>,
+        <div>
           <TagBox text="다크모드" type="HIGHLIGHT" />
           구현
           <TagBox
@@ -109,11 +109,11 @@ export const PROJECT_LIST: IProjectInfo[] = [
             text="BLOG"
             type="BLOG"
           />
-        </span>,
-        <span>
+        </div>,
+        <div>
           <TagBox text="chat.js" type="HIGHLIGHT" />
           사용하여 데이터 시각화
-        </span>,
+        </div>,
       ],
     },
     INFO: {
@@ -128,7 +128,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
   ////////////////////////////////////////////////////////////////////////////////
   {
     DESC: {
-      SUMMARY: <>LMS (Learning Management System ) 학습관리시스템</>,
+      SUMMARY: <>LMS (Learning Management System ) 학습관리시스템입니다.</>,
       STACK: [
         "Next.js",
         "Typescript",
@@ -138,13 +138,13 @@ export const PROJECT_LIST: IProjectInfo[] = [
         "Firebase",
       ],
       CONTRIBUTION: [
-        <span>
+        <div>
           <TagBox text="팀장" type="HIGHLIGHT" />
           역할로서 데일리 스크럼 및 스프린트 계획 진행
-        </span>,
-        <span>강의실 페이지 UI</span>,
-        <span>관리자, 수강생 권한 분기 처리</span>,
-        <span>Drag and Drop 강의 순서 변경</span>,
+        </div>,
+        <div>강의실 페이지 UI</div>,
+        <div>관리자, 수강생 권한 분기 처리</div>,
+        <div>Drag and Drop 강의 순서 변경</div>,
       ],
     },
     INFO: {
@@ -168,30 +168,30 @@ export const PROJECT_LIST: IProjectInfo[] = [
             text="Numble"
             type="BLOG"
           />
-          에서 제공해준 기획서 따라 구현 (과제 구현 방식)
+          에서 제공해준 기획서 따라 구현한 프로젝트입니다.
         </>
       ),
       STACK: ["React", "Typescript", "Axios", "Styled-Components"],
       CONTRIBUTION: [
-        <span>
+        <div>
           참가자 18명 중 <TagBox text="1등🎖" type="HIGHLIGHT" />
-        </span>,
-        <span>
+        </div>,
+        <div>
           <TagBox text="Axios Interceptor" type="HIGHLIGHT" />
           활용하여 토큰 재발급 및 헤더에 토큰 설정 일괄 처리
-        </span>,
-        <span>
+        </div>,
+        <div>
           <TagBox text="custom hook" type="HIGHLIGHT" /> 활용하여 UI와 로직을
           분리한 컴포넌트 설계
-        </span>,
-        <span>회원가입, 로그인 구현</span>,
-        <span>기획서의 모든 요구사항 구현</span>,
+        </div>,
+        <div>회원가입, 로그인 구현</div>,
+        <div>기획서의 모든 요구사항 구현</div>,
       ],
     },
     INFO: {
       IMG_URL: NumbleProject,
       TITLE: "Numble 과제",
-      PARTICIPANT: "1인 개발",
+      PARTICIPANT: "개인 개발",
       PERIOD: "23. 05 - 23. 05",
       GITHUB: "https://github.com/jeongdopark/date",
     },
@@ -200,15 +200,15 @@ export const PROJECT_LIST: IProjectInfo[] = [
     DESC: {
       SUMMARY: (
         <>
-          <span>
+          <div>
             개인 맞춤형 일러스트/그림/디자인을 제작 의뢰하는 서비스입니다.
-          </span>
+          </div>
         </>
       ),
       STACK: ["React", "Typescript", "React-Query", "Styled-Components"],
       CONTRIBUTION: [
-        <span>기획 및 프론트엔드 개발</span>,
-        <span>상품페이지, 작가 페이지, 마이페이지 CRUD 작업</span>,
+        <div>기획 및 프론트엔드 개발</div>,
+        <div>상품페이지, 작가 페이지, 마이페이지 CRUD 작업</div>,
       ],
     },
     INFO: {

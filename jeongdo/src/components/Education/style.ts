@@ -6,7 +6,7 @@ const EducationContainer = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 50px 0px;
+  margin: 30px 0px;
 `;
 
 const EducationTitle = styled.h1`

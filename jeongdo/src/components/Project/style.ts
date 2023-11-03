@@ -46,7 +46,7 @@ const InfoPeriod = styled.span`
   white-space: nowrap;
 
   @media ${DEVICE.small} {
-    font-size: ${THEME.FONT_SIZE.MS};
+    font-size: ${THEME.FONT_SIZE.S};
   }
 `;
 
@@ -80,11 +80,16 @@ const Summary = styled.div`
   width: 100%;
   padding: 15px;
   min-height: 50px;
-  font-size: ${THEME.FONT_SIZE.M};
+  font-size: ${THEME.FONT_SIZE.L};
   border-radius: ${THEME.RADIUS.M};
   line-height: 19px;
   font-weight: ${THEME.FONT_WEIGHT.S};
   background-color: ${THEME.BACKGROUND.SUMMARY};
+
+  div {
+    padding: 3px;
+    margin: 0px 3px;
+  }
   @media ${DEVICE.small} {
     margin-bottom: 5px;
   }
@@ -109,7 +114,7 @@ const Li = styled.li`
   margin-bottom: 13px;
   font-size: ${THEME.FONT_SIZE.L};
   @media ${DEVICE.small} {
-    font-size: ${THEME.FONT_SIZE.MS};
+    font-size: ${THEME.FONT_SIZE.S};
   }
   @media ${DEVICE.medium} {
     font-size: ${THEME.FONT_SIZE.M};
@@ -119,7 +124,7 @@ const Li = styled.li`
 const ProjectContainer = styled.section`
   display: flex;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
 
   @media ${DEVICE.small} {
     flex-direction: column;

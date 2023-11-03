@@ -39,11 +39,7 @@ export const ACTIVITY_LIST: IActivity[] = [
     DESC: [
       <span>
         6일간
-        <TagBox text="기획" type="HIGHLIGHT" />
-        부터
-        <TagBox text="개발" type="HIGHLIGHT" />
-        및
-        <TagBox text="배포" type="HIGHLIGHT" />
+        <TagBox text="기획, 개발, 배포" type="HIGHLIGHT" />
         진행
       </span>,
       <span>
@@ -74,13 +70,13 @@ export const ACTIVITY_LIST: IActivity[] = [
     DESC: [
       <span>기업 과제 훈련</span>,
       <span>
-        검색창 + 검색어 추천 기능 + 캐싱 기능
+        검색창, 검색어 추천 기능, 캐싱 기능
         <ol>
           <li>디바운스와 로컬 캐싱 구현으로 API호출 최소화</li>
         </ol>
       </span>,
       <span>
-        추천 기능 구현 + 무한 스크롤
+        추천 기능 구현, 무한 스크롤
         <ol>
           <li>Intersection Observer API무한스크롤 구현</li>
         </ol>

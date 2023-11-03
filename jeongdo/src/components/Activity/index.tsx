@@ -1,12 +1,12 @@
 import { S } from "./style";
 import Title from "../Title";
-import { ACTIVITY_LIST, IActivity, ILink } from "../../input/activity";
+import { ACTIVITY_LIST, IActivity, ILink } from "../../data/activity";
 import { SVG } from "../SVG";
 
 const Activity = () => {
   return (
     <>
-      <Title title="Activities." />
+      <Title title="Activities" />
       <S.ActivityContainer>
         {ACTIVITY_LIST.map((activity: IActivity) => (
           <S.ActivityWrapper>

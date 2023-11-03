@@ -1,6 +1,6 @@
 import { S } from "./style";
 import { SVG } from "../SVG";
-import { IInfo } from "../../input/project";
+import { IInfo } from "../../data/project";
 
 interface IProps {
   info: IInfo;

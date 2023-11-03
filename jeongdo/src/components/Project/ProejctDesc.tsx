@@ -2,7 +2,7 @@ import { S } from "./style";
 import ProjectSummary from "./ProjectSummary";
 import ProjectTechStack from "./ProjectTechStack";
 import ProjectContribution from "./ProjectContribution";
-import { IDesc } from "../../input/project";
+import { IDesc } from "../../data/project";
 
 interface IProps {
   desc: IDesc;
