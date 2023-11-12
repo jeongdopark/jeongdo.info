@@ -30,3 +30,12 @@ div {
     url("style/fonts/NotoSansKR-Medium.woff") format("woff"),
     url("style/fonts/NotoSansKR-Medium.otf") format("truetype");
 }
+
+@font-face {
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("style/fonts/NotoSansKR-Bold.woff2") format("woff2"),
+    url("style/fonts/NotoSansKR-Bold.woff") format("woff"),
+    url("style/fonts/NotoSansKR-Bold.otf") format("truetype");
+}

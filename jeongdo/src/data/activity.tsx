@@ -1,4 +1,4 @@
-import TagBox from "../components/TagBox";
+import TagBox from "../components/Resume/TagBox";
 import { linkHandler } from "../utils/linkHandler";
 export interface ILink {
   type: string;

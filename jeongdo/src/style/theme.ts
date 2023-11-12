@@ -1,8 +1,8 @@
 export const THEME = {
   BACKGROUND: {
     SUMMARY: "#F1F3F5",
-    TECH_STACK: "#212529",
-    BLOG: "#1B77FF",
+    TECH_STACK: "#F1F3F5",
+    BLOG: "#000000",
     BLACK: "#121212",
     HIGHLIGHT: "#EBE6EB",
   },
@@ -10,6 +10,7 @@ export const THEME = {
     WHITE: "#FFFFFF",
     HIGHLIGHT: "#1B77FF",
     BLACK: "#121212",
+    GRAY: "#71717A",
   },
   RADIUS: {
     S: "5px",

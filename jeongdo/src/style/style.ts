@@ -13,7 +13,10 @@ div,
 h1 {
   font-family: "Noto Sans CJK KR";
 }
-
+a{
+  text-decoration: none;
+  color : ${THEME.COLOR.BLACK}
+}
 li {
   list-style-type: disc;
 }
@@ -21,8 +24,15 @@ li {
 ol{
   padding-inline-start: 20px;
 }
+`;
 
-
+const HomeContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 2200px;
+  align-items: center;
 `;
 
 const ResumeContainer = styled.div`
@@ -36,6 +46,12 @@ const ContentContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 20px;
+`;
+
+const Layout = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const ContentWrapper = styled.div`
@@ -57,4 +73,6 @@ export const S = {
   ContentContainer,
   ContentWrapper,
   GlobalStyles,
+  HomeContainer,
+  Layout,
 };

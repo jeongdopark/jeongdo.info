@@ -1,4 +1,4 @@
-import TagBox from "../components/TagBox";
+import TagBox from "../components/Resume/TagBox";
 import BAKER from "../assets/BAEKER.png";
 import Jeongdo from "../assets/Jeongdo.png";
 import LMS from "../assets/LMS.png";
