@@ -1,5 +1,5 @@
 import TagBox from "../components/Resume/TagBox";
-import { linkHandler } from "../utils/linkHandler";
+
 export interface ILink {
   type: string;
   url: string;
@@ -13,6 +13,17 @@ export interface IActivity {
 }
 
 export const ACTIVITY_LIST: IActivity[] = [
+  {
+    TITLE: "알고리즘 문제풀이 스터디",
+    PERIOD: "23. 06 - 23. 09",
+    LINK: [
+      {
+        type: "github",
+        url: "https://github.com/JS-AlgorithmStudy/JS-Algorithm",
+      },
+    ],
+    DESC: [<span>주 1회 알고리즘 스터디</span>],
+  },
   {
     TITLE: "[우데미X웅진씽크빅X스나이퍼팩토리] React 교육",
     PERIOD: "23. 05 - 23. 08",
