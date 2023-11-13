@@ -4,7 +4,7 @@ export const THEME = {
     TECH_STACK: "#F1F3F5",
     BLOG: "#000000",
     BLACK: "#121212",
-    HIGHLIGHT: "#EBE6EB",
+    HIGHLIGHT: "#FFEBF0",
   },
   COLOR: {
     WHITE: "#FFFFFF",
@@ -21,6 +21,7 @@ export const THEME = {
     M: "13px",
     L: "14px",
     XL: "15px",
+    XXL: "20px",
   },
   FONT_WEIGHT: {
     S: "500",

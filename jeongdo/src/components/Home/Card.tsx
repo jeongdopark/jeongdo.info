@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <S.CardContainer>
       <div>
-        <S.Name>Jeongdo Park | 박정도</S.Name>
+        <S.Name>Jeongdo Park</S.Name>
         <S.Position>Front-end Engineer</S.Position>
       </div>
       <S.CardIntroduce>

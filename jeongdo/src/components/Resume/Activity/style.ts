@@ -6,7 +6,7 @@ const ActivityContainer = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 30px 0px;
+  margin: 30px 0px 0px 0px;
 `;
 
 const ActivityTitle = styled.h1`
@@ -53,6 +53,10 @@ const ActivityWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
 `;
 export const S = {
   ActivityWrapper,

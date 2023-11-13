@@ -3,7 +3,7 @@ import { linkHandler } from "../utils/linkHandler";
 
 export const PORTFOLIO = (
   <div>
-    간단한 요약을 위한 이력서 입니다. 포트폴리오는
+    간단한 요약을 위한 이력서입니다. 포트폴리오는
     <TagBox
       clickHandler={() =>
         linkHandler(

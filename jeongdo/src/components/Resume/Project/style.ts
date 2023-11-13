@@ -35,9 +35,13 @@ const InfoImg = styled.img`
 `;
 
 const InfoTitle = styled.span`
-  font-size: 1.5rem;
+  font-size: ${THEME.FONT_SIZE.XXL};
   font-weight: bold;
   white-space: nowrap;
+
+  @media ${DEVICE.small} {
+    font-size: ${THEME.FONT_SIZE.XL};
+  }
 `;
 
 const InfoPeriod = styled.span`

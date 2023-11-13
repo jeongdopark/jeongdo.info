@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { THEME } from "../../style/theme";
+import { DEVICE } from "../../style/media";
 
 const Header = styled.header`
   box-sizing: border-box;
@@ -8,17 +9,21 @@ const Header = styled.header`
   color: ${THEME.COLOR.BLACK};
   justify-content: space-between;
   width: 100vw;
-  height: 60px;
+  height: 80px;
   background-color: transparent;
   font-size: 1.6rem;
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 0px;
   padding: 0px 60px;
   z-index: 9999;
-  header {
-    font-weight: 700;
+  font-weight: 700;
+  @media ${DEVICE.small} {
+    font-size: 1rem;
   }
+
   ul {
     display: flex;
   }

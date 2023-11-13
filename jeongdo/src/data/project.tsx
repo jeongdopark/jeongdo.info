@@ -31,18 +31,13 @@ export const PROJECT_LIST: IProjectInfo[] = [
     DESC: {
       SUMMARY: (
         <>
-          노션으로 만든 이력서를 바탕으로, 각 영역을 컴포넌트화하여
-          구현했습니다.
+          개인 소개를 위한 페이지를 개발 중입니다.
           <br />
-          현재 보고 계신 이력서 또한 해당 프로젝트를 PDF 출력한 것입니다.
+          추후 블로그 포스팅 진행 예정입니다.
         </>
       ),
       STACK: ["React", "Styled-Components", "Typescript"],
       CONTRIBUTION: [
-        <div>
-          <TagBox text="단일 책임 원칙" type="HIGHLIGHT" /> 고려하여 컴포넌트
-          설계
-        </div>,
         <div>
           <TagBox text="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront 배포
         </div>,
@@ -55,7 +50,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
       IMG_URL: Jeongdo,
       TITLE: "Jeongdo.info",
       PARTICIPANT: "개인 개발",
-      PERIOD: "23. 11.01 - 23. 11.03",
+      PERIOD: "23. 11 - 진행 중",
       GITHUB: "https://github.com/jeongdopark/jeongdo.info",
       DEPLOY: "https://jeongdo.info",
     },

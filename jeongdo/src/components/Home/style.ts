@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { THEME } from "../../style/theme";
+import { DEVICE } from "../../style/media";
 
 const Container = styled.div`
   display: flex;
@@ -22,26 +23,37 @@ interface IProp {
 
 const Circle = styled.svg<IProp>`
   top: 350px;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 320px;
   height: 320px;
   z-index: -100;
   stroke-dashoffset: ${(prop) => 942 - 942 * prop.scroll};
   position: sticky;
+  transform: translate(-50%, -50%);
   stroke-dasharray: 942;
+  left: 50%;
+
+  @media ${DEVICE.small} {
+    width: 160px;
+    height: 160px;
+  }
 `;
 
 const Image = styled.img`
+  left: 50%;
   position: sticky;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
   top: 350px;
-  left: 50%;
-  transform: translate(-50%, -50%);
   object-fit: cover;
   width: 300px;
   height: 300px;
   margin: 20px;
+  z-index: 999;
+  @media ${DEVICE.small} {
+    width: 155px;
+    height: 155px;
+    margin: 5px;
+  }
 `;
 
 const IntroduceContainer = styled.div`
