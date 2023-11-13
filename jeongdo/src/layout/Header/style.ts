@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { THEME } from "../../style/theme";
 import { DEVICE } from "../../style/media";
 
-const Header = styled.header`
+const Header = styled.div`
   box-sizing: border-box;
   align-items: center;
   display: flex;
@@ -22,6 +22,7 @@ const Header = styled.header`
   font-weight: 700;
   @media ${DEVICE.small} {
     font-size: 1rem;
+    height: 50px;
   }
 
   ul {

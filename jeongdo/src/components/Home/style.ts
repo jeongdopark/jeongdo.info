@@ -58,15 +58,15 @@ const Image = styled.img`
 
 const IntroduceContainer = styled.div`
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: flex;
-
+  align-items: center;
   justify-content: center;
   h1 {
     font-size: 2.3rem;
     font-weight: 700;
   }
-
+  margin-bottom: 100px;
   span {
     font-size: 1.5rem;
     margin: 10px;
