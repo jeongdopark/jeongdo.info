@@ -9,6 +9,13 @@ h1 {
   word-break: keep-all;
 }
 
+a {
+  text-decoration: none;
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
 div {
   box-sizing: border-box;
 }

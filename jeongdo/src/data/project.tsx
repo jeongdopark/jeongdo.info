@@ -72,9 +72,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           <TagBox text="합성 컴포넌트 패턴" type="HIGHLIGHT" />
           활용하여 공통 컴포넌트 설계
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/117")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/117"
             text="BLOG"
             type="BLOG"
           />
@@ -82,9 +80,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
         <div>
           RTK-Query에 Axios 적용
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/115")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/115"
             text="BLOG"
             type="BLOG"
           />
@@ -92,9 +88,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
         <div>
           Axios Interceptor 활용
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/116")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/116"
             text="BLOG"
             type="BLOG"
           />
@@ -103,9 +97,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           <TagBox text="다크모드" type="HIGHLIGHT" />
           구현
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/112"
             text="BLOG"
             type="BLOG"
           />
@@ -139,6 +131,10 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
       CONTRIBUTION: [
         <div>
+          <TagBox text="테스트 계정" type="HIGHLIGHT" /> ID: test@test.com, PW:
+          test1234
+        </div>,
+        <div>
           <TagBox text="팀장" type="HIGHLIGHT" />
           역할로서 데일리 스크럼 및 스프린트 계획 진행
         </div>,
@@ -162,9 +158,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
       SUMMARY: (
         <>
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
+            clickHandler="https://www.numble.it"
             text="Numble"
             type="BLOG"
           />
