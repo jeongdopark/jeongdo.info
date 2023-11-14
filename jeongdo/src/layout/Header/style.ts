@@ -12,8 +12,8 @@ const Header = styled.div`
   height: 80px;
   background-color: transparent;
   font-size: 1.6rem;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 0px;
@@ -21,8 +21,9 @@ const Header = styled.div`
   z-index: 9999;
   font-weight: 700;
   @media ${DEVICE.small} {
-    font-size: 1rem;
+    font-size: 0.9rem;
     height: 50px;
+    padding: 0px 30px;
   }
 
   ul {
