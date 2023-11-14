@@ -8,7 +8,7 @@ import { S } from "./style";
 const Project = () => {
   return (
     <>
-      <Title title="Project" />
+      <Title title="Projects" />
       {PROJECT_LIST.map((project_info: IProjectInfo) => (
         <S.ProjectContainer>
           <ProjectInfo info={project_info.INFO} />

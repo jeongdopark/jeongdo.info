@@ -15,7 +15,7 @@ export interface IActivity {
 
 export const ACTIVITY_LIST: IActivity[] = [
   {
-    TITLE: "[우데미X웅진씽크빅] React 교육",
+    TITLE: "[Udemy X 웅진씽크빅] React 교육",
     PERIOD: "23. 05 - 23. 08",
     LINK: [],
     DESC: [

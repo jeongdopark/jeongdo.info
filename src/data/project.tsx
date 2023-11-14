@@ -44,7 +44,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           배포
         </div>,
         <div>
-          Github Actions <TagBox content="배포 자동화" type="HIGHLIGHT" />
+          GitHub Actions <TagBox content="배포 자동화" type="HIGHLIGHT" />
         </div>,
         <div>
           <TagBox content="반응형" type="HIGHLIGHT" /> 구현

@@ -16,7 +16,7 @@ const Introduce = () => {
             </S.Text>
             <S.LinkWrapper>
               <S.Link href="https://github.com/jeongdopark" target="_blank">
-                Github
+                GitHub
               </S.Link>
               <S.Link href="https://parkjeongdo.tistory.com/" target="_blank">
                 Blog
