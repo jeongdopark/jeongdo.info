@@ -1,27 +1,16 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# jeongdo.info
+소개 페이지입니다. 
+<br/>
+계속 채워나갈 예정입니다 :-)
+<br/>
+<br/>
+링크 : https://jeongdo.info
+<br/>
+<br/>
+기술 스택 : react, typescript, styled-components
+<br/>
+<br/>
+배포 : AWS S3, Route53, CloudFront &  GitHub Actions 배포 자동화
+<br/>
+<br/>
+<img width="1440" alt="스크린샷 2023-11-15 오전 3 18 15" src="https://github.com/jeongdopark/jeongdo.info/assets/72500346/e49c2628-22d7-4314-a5d3-2e18979df011">
