@@ -37,6 +37,7 @@ const Li = styled.li`
   line-height: 1.1rem;
   margin-left: 20px;
   margin-bottom: 10px;
+  font-size: ${THEME.FONT_SIZE.L};
   ol {
     li {
       margin-bottom: 10px;

@@ -75,11 +75,9 @@ export const PROJECT_LIST: IProjectInfo[] = [
       CONTRIBUTION: [
         <div>
           <TagBox content="합성 컴포넌트 패턴" type="HIGHLIGHT" />
-          활용, 컴포넌트 재사용성
+          활용, 컴포넌트 확장성 및 재사용성 증가
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/117")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/117"
             content={SVG.Link}
             type="LINK"
           />
@@ -88,9 +86,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           <TagBox content="RTK-Query" type="HIGHLIGHT" />
           Axios baseQuery 적용
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/115")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/115"
             content={SVG.Link}
             type="LINK"
           />
@@ -99,9 +95,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           <TagBox content="다크모드" type="HIGHLIGHT" />
           구현
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/112"
             content={SVG.Link}
             type="LINK"
           />
@@ -109,13 +103,12 @@ export const PROJECT_LIST: IProjectInfo[] = [
         <div>
           Axios Interceptor 활용
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/116")
-            }
+            clickHandler="https://parkjeongdo.tistory.com/116"
             content={SVG.Link}
             type="LINK"
           />
         </div>,
+        <div>middleware 활용하여 권한에 따른 페이지 분기 처리</div>,
       ],
     },
     INFO: {
@@ -140,6 +133,10 @@ export const PROJECT_LIST: IProjectInfo[] = [
         "Firebase",
       ],
       CONTRIBUTION: [
+        <div>
+          <TagBox content="테스트 계정" type="HIGHLIGHT" /> ID: test@test.com,
+          PW: test1234
+        </div>,
         <div>
           <TagBox content="팀장" type="HIGHLIGHT" />
           역할로서 데일리 스크럼 및 스프린트 계획 진행

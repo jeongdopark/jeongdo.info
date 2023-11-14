@@ -69,7 +69,7 @@ const DescContainer = styled.div`
   flex-direction: column;
   padding-left: 15px;
   border-left: 1px solid ${THEME.BACKGROUND.SUMMARY};
-
+  /* line-height: 10rem; */
   @media ${DEVICE.small} {
     width: 100%;
     border: none;
@@ -84,7 +84,7 @@ const Summary = styled.div`
   width: 100%;
   padding: 15px;
   min-height: 50px;
-  font-size: ${THEME.FONT_SIZE.L};
+  font-size: ${THEME.FONT_SIZE.XL};
   border-radius: ${THEME.RADIUS.M};
   line-height: 19px;
   font-weight: ${THEME.FONT_WEIGHT.S};
@@ -115,7 +115,7 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   margin-left: 20px;
-  margin-bottom: 13px;
+  margin-bottom: 5px;
   font-size: ${THEME.FONT_SIZE.L};
   line-height: 1rem;
   @media ${DEVICE.small} {

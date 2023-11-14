@@ -18,7 +18,7 @@ export const THEME = {
     M: "10px",
   },
   FONT_SIZE: {
-    S: "12px",
+    S: "14px",
     M: "13px",
     L: "14px",
     XL: "15px",

@@ -9,7 +9,7 @@ interface ILayoutProps {
 const Layout = ({ children }: ILayoutProps) => {
   return (
     <S.Layout>
-      <Header />
+      {/* <Header /> */}
       {children}
       <Footer />
     </S.Layout>

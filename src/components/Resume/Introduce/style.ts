@@ -83,7 +83,7 @@ const Ul = styled.ul`
   margin-top: 40px;
   font-size: 17px;
   li {
-    line-height: 2rem;
+    /* line-height: 2rem; */
   }
 `;
 export const S = {
