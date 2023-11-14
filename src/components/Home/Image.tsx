@@ -12,8 +12,6 @@ const Image = () => {
   useLayoutEffect(() => {
     const viewPortWidth = window.innerWidth;
     if (viewPortWidth <= SMALL_DEVICE) {
-      console.log("hello!");
-
       setIsSmall(true);
     } else {
       setIsSmall(false);
