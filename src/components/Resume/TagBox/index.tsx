@@ -1,8 +1,9 @@
 import { S } from "./style";
 import { THEME } from "../../../style/theme";
+import { ReactNode } from "react";
 interface IProps {
   clickHandler?: () => void;
-  text: string;
+  content: string | ReactNode;
   type: keyof typeof TAG_TYPE_STYLE;
 }
 
@@ -24,13 +25,19 @@ const TAG_TYPE_STYLE: Record<string, IStyle> = {
   },
   BLOG: {
     BACKGROUND: THEME.BACKGROUND.BLOG,
-    COLOR: THEME.COLOR.WHITE,
+    COLOR: THEME.COLOR.BLACK,
+    FONT: THEME.FONT_SIZE.S,
+    WEIGHT: THEME.FONT_WEIGHT.L,
+  },
+  LINK: {
+    BACKGROUND: THEME.BACKGROUND.WHITE,
+    COLOR: THEME.COLOR.BLACK,
     FONT: THEME.FONT_SIZE.S,
     WEIGHT: THEME.FONT_WEIGHT.L,
   },
 };
 
-const TagBox = ({ clickHandler, text, type }: IProps) => {
+const TagBox = ({ clickHandler, content, type }: IProps) => {
   return (
     <S.Tag
       background={TAG_TYPE_STYLE[type].BACKGROUND}
@@ -38,8 +45,9 @@ const TagBox = ({ clickHandler, text, type }: IProps) => {
       font={TAG_TYPE_STYLE[type].FONT}
       weight={TAG_TYPE_STYLE[type].WEIGHT}
       onClick={clickHandler}
+      type={type}
     >
-      {text}
+      {content}
     </S.Tag>
   );
 };

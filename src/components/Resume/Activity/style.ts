@@ -34,18 +34,19 @@ const Ul = styled.ul`
 `;
 
 const Li = styled.li`
+  line-height: 1.1rem;
   margin-left: 20px;
   margin-bottom: 10px;
-
   ol {
     li {
-      margin-top: 10px;
+      margin-bottom: 10px;
       list-style-type: square;
     }
   }
 
   @media ${DEVICE.small} {
     font-size: ${THEME.FONT_SIZE.S};
+    margin-bottom: 5px;
   }
 `;
 

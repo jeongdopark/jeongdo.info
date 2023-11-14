@@ -1,4 +1,5 @@
 import TagBox from "../components/Resume/TagBox";
+import { SVG } from "../components/SVG";
 import { linkHandler } from "../utils/linkHandler";
 export interface ILink {
   type: string;
@@ -14,7 +15,7 @@ export interface IActivity {
 
 export const ACTIVITY_LIST: IActivity[] = [
   {
-    TITLE: "[우데미X웅진씽크빅X스나이퍼팩토리] React 교육",
+    TITLE: "[우데미X웅진씽크빅] React 교육",
     PERIOD: "23. 05 - 23. 08",
     LINK: [],
     DESC: [
@@ -22,7 +23,7 @@ export const ACTIVITY_LIST: IActivity[] = [
       <span>협업 프로젝트 4주</span>,
       <span>
         참가자 80명 중
-        <TagBox text="우수 5인🎖" type="HIGHLIGHT" />
+        <TagBox content="우수 5인🎖" type="HIGHLIGHT" />
         선정
       </span>,
     ],
@@ -39,7 +40,7 @@ export const ACTIVITY_LIST: IActivity[] = [
     DESC: [
       <span>
         6일간
-        <TagBox text="기획, 개발, 배포" type="HIGHLIGHT" />
+        <TagBox content="기획, 개발, 배포" type="HIGHLIGHT" />
         진행
       </span>,
       <span>
@@ -48,8 +49,8 @@ export const ACTIVITY_LIST: IActivity[] = [
           clickHandler={() =>
             linkHandler("https://parkjeongdo.tistory.com/110")
           }
-          text="BLOG"
-          type="BLOG"
+          content={SVG.Link}
+          type="LINK"
         />
       </span>,
     ],

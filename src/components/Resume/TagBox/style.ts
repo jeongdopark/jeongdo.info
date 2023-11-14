@@ -6,6 +6,7 @@ type Props = {
   color: string;
   font?: string;
   weight?: string;
+  type: string;
 };
 
 const Tag = styled.div<Props>`
@@ -21,11 +22,12 @@ const Tag = styled.div<Props>`
 
   @media ${DEVICE.small} {
     font-size: ${THEME.FONT_SIZE.S};
-    padding: 5px;
+    padding: 3px;
+    margin: ${(props) =>
+      props.type === "HIGHLIGHT" ? "0px 3px 5px 3px" : "0px 3px"};
   }
   @media ${DEVICE.xsmall} {
     font-size: ${THEME.FONT_SIZE.S};
-    padding: 5px;
   }
 `;
 

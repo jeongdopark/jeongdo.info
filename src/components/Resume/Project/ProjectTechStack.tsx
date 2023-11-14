@@ -9,7 +9,7 @@ const ProjectTechStack = ({ stacks }: IProps) => {
   return (
     <S.TechStackContainer>
       {stacks.map((stack: string) => (
-        <TagBox text={stack} type="TECH_STACK" />
+        <TagBox content={stack} type="TECH_STACK" />
       ))}
     </S.TechStackContainer>
   );

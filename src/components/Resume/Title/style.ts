@@ -5,7 +5,7 @@ const Title = styled.h1`
   font-size: 2.3rem;
   font-weight: 700;
   margin-top: 100px;
-  color: ${THEME.BACKGROUND.BLOG};
+  color: ${THEME.BACKGROUND.BLACK};
 `;
 
 const Divider = styled.div`

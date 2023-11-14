@@ -5,6 +5,7 @@ import LMS from "../assets/LMS.png";
 import NumbleProject from "../assets/NumbleProject.png";
 import PPPICK from "../assets/PPPICK.png";
 import { linkHandler } from "../utils/linkHandler";
+import { SVG } from "../components/SVG";
 
 export interface IInfo {
   IMG_URL: string;
@@ -39,10 +40,14 @@ export const PROJECT_LIST: IProjectInfo[] = [
       STACK: ["React", "Styled-Components", "Typescript"],
       CONTRIBUTION: [
         <div>
-          <TagBox text="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront 배포
+          <TagBox content="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront
+          배포
         </div>,
         <div>
-          <TagBox text="반응형" type="HIGHLIGHT" /> 구현
+          Github Actions <TagBox content="배포 자동화" type="HIGHLIGHT" />
+        </div>,
+        <div>
+          <TagBox content="반응형" type="HIGHLIGHT" /> 구현
         </div>,
       ],
     },
@@ -58,7 +63,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
   ////////////////////////////////////////////////////////////////////////////////
   {
     DESC: {
-      SUMMARY: <>알고리즘 스터디의 체계적 관리에 도움 주는 서비스입니다.</>,
+      SUMMARY: <>알고리즘 스터디의 체계적 관리에 도움을 주는 서비스입니다.</>,
       STACK: [
         "Next.js",
         "Typescript",
@@ -69,24 +74,36 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
       CONTRIBUTION: [
         <div>
-          <TagBox text="합성 컴포넌트 패턴" type="HIGHLIGHT" />
-          활용하여 공통 컴포넌트 설계
+          <TagBox content="합성 컴포넌트 패턴" type="HIGHLIGHT" />
+          활용, 컴포넌트 재사용성
           <TagBox
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/117")
             }
-            text="BLOG"
-            type="BLOG"
+            content={SVG.Link}
+            type="LINK"
           />
         </div>,
         <div>
-          RTK-Query에 Axios 적용
+          <TagBox content="RTK-Query" type="HIGHLIGHT" />
+          Axios baseQuery 적용
           <TagBox
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/115")
             }
-            text="BLOG"
-            type="BLOG"
+            content={SVG.Link}
+            type="LINK"
+          />
+        </div>,
+        <div>
+          <TagBox content="다크모드" type="HIGHLIGHT" />
+          구현
+          <TagBox
+            clickHandler={() =>
+              linkHandler("https://parkjeongdo.tistory.com/112")
+            }
+            content={SVG.Link}
+            type="LINK"
           />
         </div>,
         <div>
@@ -95,24 +112,9 @@ export const PROJECT_LIST: IProjectInfo[] = [
             clickHandler={() =>
               linkHandler("https://parkjeongdo.tistory.com/116")
             }
-            text="BLOG"
-            type="BLOG"
+            content={SVG.Link}
+            type="LINK"
           />
-        </div>,
-        <div>
-          <TagBox text="다크모드" type="HIGHLIGHT" />
-          구현
-          <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
-            text="BLOG"
-            type="BLOG"
-          />
-        </div>,
-        <div>
-          <TagBox text="chat.js" type="HIGHLIGHT" />
-          사용하여 데이터 시각화
         </div>,
       ],
     },
@@ -139,12 +141,11 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
       CONTRIBUTION: [
         <div>
-          <TagBox text="팀장" type="HIGHLIGHT" />
+          <TagBox content="팀장" type="HIGHLIGHT" />
           역할로서 데일리 스크럼 및 스프린트 계획 진행
         </div>,
         <div>강의실 페이지 UI</div>,
         <div>관리자, 수강생 권한 분기 처리</div>,
-        <div>Drag and Drop 강의 순서 변경</div>,
       ],
     },
     INFO: {
@@ -159,31 +160,17 @@ export const PROJECT_LIST: IProjectInfo[] = [
   ////////////////////////////////////////////////////////////////////////////////
   {
     DESC: {
-      SUMMARY: (
-        <>
-          <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
-            text="Numble"
-            type="BLOG"
-          />
-          에서 제공해준 기획서 따라 구현한 프로젝트입니다.
-        </>
-      ),
+      SUMMARY: <>Numble에서 제공해준 기획서를 따라 구현한 프로젝트입니다.</>,
       STACK: ["React", "Typescript", "Axios", "Styled-Components"],
       CONTRIBUTION: [
         <div>
-          참가자 18명 중 <TagBox text="1등🎖" type="HIGHLIGHT" />
+          참가자 18명 중 <TagBox content="1등🎖" type="HIGHLIGHT" />
         </div>,
         <div>
-          <TagBox text="Axios Interceptor" type="HIGHLIGHT" />
+          <TagBox content="Axios Interceptor" type="HIGHLIGHT" />
           활용하여 토큰 재발급 및 헤더에 토큰 설정 일괄 처리
         </div>,
-        <div>
-          <TagBox text="custom hook" type="HIGHLIGHT" /> 활용하여 UI와 로직을
-          분리한 컴포넌트 설계
-        </div>,
+        <div>custom hook 활용하여 UI와 로직을 분리한 컴포넌트 설계</div>,
         <div>회원가입, 로그인 구현</div>,
         <div>기획서의 모든 요구사항 구현</div>,
       ],

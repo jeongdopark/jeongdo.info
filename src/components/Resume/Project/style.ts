@@ -117,8 +117,10 @@ const Li = styled.li`
   margin-left: 20px;
   margin-bottom: 13px;
   font-size: ${THEME.FONT_SIZE.L};
+  line-height: 1rem;
   @media ${DEVICE.small} {
     font-size: ${THEME.FONT_SIZE.S};
+    margin-bottom: 1px;
   }
   @media ${DEVICE.medium} {
     font-size: ${THEME.FONT_SIZE.M};

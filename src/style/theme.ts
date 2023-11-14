@@ -2,9 +2,10 @@ export const THEME = {
   BACKGROUND: {
     SUMMARY: "#F1F3F5",
     TECH_STACK: "#F1F3F5",
-    BLOG: "#000000",
+    BLOG: "#F1F3F5",
     BLACK: "#121212",
     HIGHLIGHT: "#FFEBF0",
+    WHITE: "#FFFFFF",
   },
   COLOR: {
     WHITE: "#FFFFFF",
