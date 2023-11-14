@@ -39,7 +39,6 @@ const Introduce = () => {
             justifyContent: "center",
           }}
         >
-          <ProjectSummary summary={PORTFOLIO} />
           <ProjectSummary summary={INTRODUCE} />
         </div>
       </S.Container>
