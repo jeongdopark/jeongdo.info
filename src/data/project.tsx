@@ -1,14 +1,8 @@
 import TagBox from "../components/Resume/TagBox";
-import BAKER from "../assets/BAEKER.png";
-import Jeongdo from "../assets/Jeongdo.png";
-import LMS from "../assets/LMS.png";
-import NumbleProject from "../assets/NumbleProject.png";
-import PPPICK from "../assets/PPPICK.png";
 import { linkHandler } from "../utils/linkHandler";
 import { SVG } from "../components/SVG";
 
 export interface IInfo {
-  IMG_URL: string;
   TITLE: string;
   PERIOD: string;
   GITHUB: string;
@@ -45,8 +39,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
     },
     INFO: {
-      IMG_URL: Jeongdo,
-      TITLE: "Jeongdo.info",
+      TITLE: "jeongdo.info",
       PARTICIPANT: "개인 개발",
       PERIOD: "23. 11 - 진행 중",
       GITHUB: "https://github.com/jeongdopark/jeongdo.info",
@@ -97,7 +90,6 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
     },
     INFO: {
-      IMG_URL: BAKER,
       TITLE: "BAEKER",
       PARTICIPANT: "프론트엔드 1명 | 백엔드 2명",
       PERIOD: "23. 06 - 23. 10",
@@ -120,7 +112,6 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
     },
     INFO: {
-      IMG_URL: LMS,
       TITLE: "LMS",
       PARTICIPANT: "프론트엔드 12명",
       PERIOD: "23. 07 - 23. 08",
@@ -147,8 +138,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
       ],
     },
     INFO: {
-      IMG_URL: NumbleProject,
-      TITLE: "Numble 과제",
+      TITLE: "Numble",
       PARTICIPANT: "개인 개발",
       PERIOD: "23. 05 - 23. 05",
       GITHUB: "https://github.com/jeongdopark/date",
@@ -165,7 +155,6 @@ export const PROJECT_LIST: IProjectInfo[] = [
       CONTRIBUTION: [<div>기획 및 프론트엔드 개발</div>, <div>상품페이지, 작가 페이지, 마이페이지 CRUD 작업</div>],
     },
     INFO: {
-      IMG_URL: PPPICK,
       TITLE: "PPPICK",
       PARTICIPANT: "프론트엔드 2명 | 백엔드 3명",
       PERIOD: "23. 01 - 23. 02",

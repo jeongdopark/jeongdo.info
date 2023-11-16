@@ -7,10 +7,10 @@ interface IProps {
 }
 
 const ProjectInfo = ({ info }: IProps) => {
-  const { PARTICIPANT, IMG_URL, TITLE, PERIOD, GITHUB, DEPLOY } = info;
+  const { PARTICIPANT, TITLE, PERIOD, GITHUB, DEPLOY } = info;
   return (
     <S.InfoContainer>
-      <S.InfoImg src={IMG_URL} />
+      <S.InfoImg>{TITLE}</S.InfoImg>
       <S.InfoBox>
         <S.InfoTitle>{TITLE}</S.InfoTitle>
         <S.LinkContianer>

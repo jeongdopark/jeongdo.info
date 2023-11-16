@@ -19,13 +19,13 @@ export const ACTIVITY_LIST: IActivity[] = [
     PERIOD: "23. 05 - 23. 08",
     LINK: [],
     DESC: [
-      <span>리액트 이론 교육 6주</span>,
-      <span>협업 프로젝트 4주</span>,
-      <span>
+      <div>리액트 이론 교육 6주</div>,
+      <div>협업 프로젝트 4주</div>,
+      <div>
         참가자 80명 중
         <TagBox content="우수 5인🎖" type="HIGHLIGHT" />
         선정
-      </span>,
+      </div>,
     ],
   },
   {
@@ -38,21 +38,19 @@ export const ACTIVITY_LIST: IActivity[] = [
       },
     ],
     DESC: [
-      <span>
+      <div>
         6일간
         <TagBox content="기획, 개발, 배포" type="HIGHLIGHT" />
         진행
-      </span>,
-      <span>
+      </div>,
+      <div>
         스프린트 회고 글 작성
         <TagBox
-          clickHandler={() =>
-            linkHandler("https://parkjeongdo.tistory.com/110")
-          }
+          clickHandler={() => linkHandler("https://parkjeongdo.tistory.com/110")}
           content={SVG.Link}
           type="LINK"
         />
-      </span>,
+      </div>,
     ],
   },
   {
@@ -69,19 +67,23 @@ export const ACTIVITY_LIST: IActivity[] = [
       },
     ],
     DESC: [
-      <span>기업 과제 훈련</span>,
-      <span>
+      <div>기업 과제 훈련</div>,
+      <div>
         검색창, 검색어 추천 기능, 캐싱 기능
         <ol>
-          <li>디바운스와 로컬 캐싱 구현으로 API호출 최소화</li>
+          <li>
+            <div>디바운스와 로컬 캐싱 구현으로 API호출 최소화</div>
+          </li>
         </ol>
-      </span>,
-      <span>
+      </div>,
+      <div>
         추천 기능 구현, 무한 스크롤
         <ol>
-          <li>Intersection Observer API무한스크롤 구현</li>
+          <li>
+            <div>Intersection Observer API무한스크롤 구현</div>
+          </li>
         </ol>
-      </span>,
+      </div>,
     ],
   },
 ];

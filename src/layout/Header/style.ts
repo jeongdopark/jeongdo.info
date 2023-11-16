@@ -12,8 +12,8 @@ const Header = styled.div`
   height: 80px;
   background-color: transparent;
   font-size: 1.6rem;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   position: fixed;
   top: 0px;
   padding: 0px 60px;

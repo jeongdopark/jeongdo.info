@@ -12,6 +12,7 @@ interface IStyle {
   COLOR: string;
   FONT?: string;
   WEIGHT?: string;
+  DISPLAY?: string;
 }
 
 const TAG_TYPE_STYLE: Record<string, IStyle> = {
@@ -22,14 +23,8 @@ const TAG_TYPE_STYLE: Record<string, IStyle> = {
   },
   HIGHLIGHT: {
     BACKGROUND: THEME.BACKGROUND.HIGHLIGHT,
-    COLOR: THEME.COLOR.BLACK,
+    COLOR: THEME.COLOR.HIGHLIGHT,
     WEIGHT: THEME.FONT_WEIGHT.M,
-  },
-  BLOG: {
-    BACKGROUND: THEME.BACKGROUND.BLOG,
-    COLOR: THEME.COLOR.BLACK,
-    FONT: THEME.FONT_SIZE.S,
-    WEIGHT: THEME.FONT_WEIGHT.L,
   },
   LINK: {
     BACKGROUND: THEME.BACKGROUND.WHITE,

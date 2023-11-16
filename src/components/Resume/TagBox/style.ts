@@ -9,7 +9,7 @@ type Props = {
   type: string;
 };
 
-const Tag = styled.div<Props>`
+const Tag = styled.span<Props>`
   background-color: ${(props) => props.background};
   color: ${(props) => props.color};
   font-size: ${THEME.FONT_SIZE.S};
@@ -17,7 +17,6 @@ const Tag = styled.div<Props>`
   font-weight: ${(props) => (props.weight ? props.weight : "500")};
   border-radius: ${THEME.RADIUS.S};
   cursor: ${(props) => (props.weight ? "pointer" : "normal")};
-  display: inline-block;
   margin: 0px 3px;
 
   @media ${DEVICE.small} {

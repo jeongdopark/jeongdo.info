@@ -10,6 +10,7 @@ const InfoContainer = styled.div`
   justify-content: space-around;
 
   @media ${DEVICE.small} {
+    width: 100%;
     flex-direction: row;
     justify-content: start;
     height: auto;
@@ -25,17 +26,23 @@ const InfoBox = styled.div`
   }
 `;
 
-const InfoImg = styled.img`
+const InfoImg = styled.div`
+  color: ${THEME.COLOR.WHITE};
+  font-size: ${THEME.FONT_SIZE.L};
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 120px;
   height: 120px;
   margin-bottom: 20px;
   background-color: ${THEME.BACKGROUND.BLACK};
-  border-radius: 10px;
+  border-radius: 6px;
   border: none;
 
   @media ${DEVICE.small} {
-    width: 90px;
-    height: 90px;
+    width: 90px !important;
+    height: 90px !important;
+    font-size: ${THEME.FONT_SIZE.S};
   }
 `;
 
@@ -95,7 +102,7 @@ const Summary = styled.div`
   font-weight: ${THEME.FONT_WEIGHT.S};
   background-color: ${THEME.BACKGROUND.SUMMARY};
 
-  div {
+  span {
     padding: 3px;
     margin: 0px 3px;
   }
@@ -114,7 +121,7 @@ const TechStackContainer = styled.div`
   gap: 5px;
   margin-top: 10px;
 
-  div {
+  span {
     padding: 7px;
     margin: 0px;
   }
@@ -124,8 +131,11 @@ const Ul = styled.ul`
 `;
 
 const Li = styled.li`
+  div {
+    min-height: 30px;
+  }
   margin-left: 20px;
-  margin-bottom: 13px;
+  /* margin-bottom: 13px; */
   font-size: ${THEME.FONT_SIZE.L};
   line-height: 1rem;
   @media ${DEVICE.small} {

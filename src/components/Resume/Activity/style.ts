@@ -37,10 +37,15 @@ const Li = styled.li`
   line-height: 1.1rem;
   margin-left: 20px;
   margin-bottom: 10px;
+  div {
+    min-height: 10px;
+  }
   ol {
     li {
-      margin-bottom: 10px;
       list-style-type: square;
+      div {
+        min-height: 25px;
+      }
     }
   }
 
