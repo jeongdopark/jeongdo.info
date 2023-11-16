@@ -133,6 +133,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   div {
     min-height: 30px;
+    line-height: 20px;
   }
   margin-left: 20px;
   /* margin-bottom: 13px; */
