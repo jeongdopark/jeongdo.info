@@ -30,18 +30,11 @@ export interface IProjectInfo {
 export const PROJECT_LIST: IProjectInfo[] = [
   {
     DESC: {
-      SUMMARY: (
-        <>
-          개인 소개를 위한 페이지를 개발 중입니다.
-          <br />
-          추후 블로그 포스팅 진행 예정입니다.
-        </>
-      ),
-      STACK: ["React", "Styled-Components", "Typescript"],
+      SUMMARY: <>개인 소개를 위한 페이지를 개발 중입니다.</>,
+      STACK: ["React", "Typescript", "Styled-Components", "AWS"],
       CONTRIBUTION: [
         <div>
-          <TagBox content="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront
-          배포
+          <TagBox content="AWS" type="HIGHLIGHT" /> S3, Route 53, CloudFront 배포
         </div>,
         <div>
           GitHub Actions <TagBox content="배포 자동화" type="HIGHLIGHT" />
@@ -64,22 +57,13 @@ export const PROJECT_LIST: IProjectInfo[] = [
   {
     DESC: {
       SUMMARY: <>알고리즘 스터디의 체계적 관리에 도움을 주는 서비스입니다.</>,
-      STACK: [
-        "Next.js",
-        "Typescript",
-        "Redux-Toolkit",
-        "RTK-Query",
-        "Styled-Components",
-        "Vercel",
-      ],
+      STACK: ["Next.js", "Typescript", "Redux-Toolkit", "RTK-Query", "Styled-Components", "Vercel"],
       CONTRIBUTION: [
         <div>
           <TagBox content="합성 컴포넌트 패턴" type="HIGHLIGHT" />
           활용, 컴포넌트 재사용성
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/117")
-            }
+            clickHandler={() => linkHandler("https://parkjeongdo.tistory.com/117")}
             content={SVG.Link}
             type="LINK"
           />
@@ -88,9 +72,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           <TagBox content="RTK-Query" type="HIGHLIGHT" />
           Axios baseQuery 적용
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/115")
-            }
+            clickHandler={() => linkHandler("https://parkjeongdo.tistory.com/115")}
             content={SVG.Link}
             type="LINK"
           />
@@ -99,9 +81,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
           <TagBox content="다크모드" type="HIGHLIGHT" />
           구현
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/112")
-            }
+            clickHandler={() => linkHandler("https://parkjeongdo.tistory.com/112")}
             content={SVG.Link}
             type="LINK"
           />
@@ -109,9 +89,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
         <div>
           Axios Interceptor 활용
           <TagBox
-            clickHandler={() =>
-              linkHandler("https://parkjeongdo.tistory.com/116")
-            }
+            clickHandler={() => linkHandler("https://parkjeongdo.tistory.com/116")}
             content={SVG.Link}
             type="LINK"
           />
@@ -131,14 +109,7 @@ export const PROJECT_LIST: IProjectInfo[] = [
   {
     DESC: {
       SUMMARY: <>LMS (Learning Management System ) 학습관리시스템입니다.</>,
-      STACK: [
-        "Next.js",
-        "Typescript",
-        "Redux-Toolkit",
-        "React-Query",
-        "tailwindcss",
-        "Firebase",
-      ],
+      STACK: ["Next.js", "Typescript", "Redux-Toolkit", "React-Query", "Tailwindcss", "Firebase"],
       CONTRIBUTION: [
         <div>
           <TagBox content="팀장" type="HIGHLIGHT" />
@@ -187,16 +158,11 @@ export const PROJECT_LIST: IProjectInfo[] = [
     DESC: {
       SUMMARY: (
         <>
-          <div>
-            개인 맞춤형 일러스트/그림/디자인을 제작 의뢰하는 서비스입니다.
-          </div>
+          <div>개인 맞춤형 일러스트/그림/디자인을 제작 의뢰하는 서비스입니다.</div>
         </>
       ),
       STACK: ["React", "Typescript", "React-Query", "Styled-Components"],
-      CONTRIBUTION: [
-        <div>기획 및 프론트엔드 개발</div>,
-        <div>상품페이지, 작가 페이지, 마이페이지 CRUD 작업</div>,
-      ],
+      CONTRIBUTION: [<div>기획 및 프론트엔드 개발</div>, <div>상품페이지, 작가 페이지, 마이페이지 CRUD 작업</div>],
     },
     INFO: {
       IMG_URL: PPPICK,

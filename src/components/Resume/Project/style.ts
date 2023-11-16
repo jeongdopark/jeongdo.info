@@ -32,6 +32,11 @@ const InfoImg = styled.img`
   background-color: ${THEME.BACKGROUND.BLACK};
   border-radius: 10px;
   border: none;
+
+  @media ${DEVICE.small} {
+    width: 90px;
+    height: 90px;
+  }
 `;
 
 const InfoTitle = styled.span`
@@ -104,10 +109,15 @@ const Summary = styled.div`
 
 const TechStackContainer = styled.div`
   width: 100%;
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
   flex-wrap: wrap;
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+
+  div {
+    padding: 7px;
+    margin: 0px;
+  }
 `;
 const Ul = styled.ul`
   margin-top: 20px;
