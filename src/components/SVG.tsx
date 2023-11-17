@@ -10,13 +10,17 @@ const Deploy = (
 );
 
 const Link = (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="15"
-    viewBox="0 0 24 16"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 24 16">
     <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" />
+  </svg>
+);
+
+const UpDir = (
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+    <polygon
+      fill="white"
+      points="3.293 11.293 4.707 12.707 11 6.414 11 20 13 20 13 6.414 19.293 12.707 20.707 11.293 12 2.586 3.293 11.293"
+    />
   </svg>
 );
 
@@ -24,4 +28,5 @@ export const SVG = {
   Github,
   Deploy,
   Link,
+  UpDir,
 };

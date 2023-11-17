@@ -90,7 +90,7 @@ const Name = styled.div`
 
 const Position = styled.div`
   font-size: 0.8rem;
-  color: ${THEME.COLOR.GRAY};
+  color: ${THEME.COLOR.DEEP_GRAY};
   margin-top: 6px;
 `;
 
