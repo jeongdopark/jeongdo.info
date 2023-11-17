@@ -28,7 +28,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scroll, pathname]);
+  }, [scroll]);
 
   const routerHandler = (num: number) => {
     setRouterIndex(num);
