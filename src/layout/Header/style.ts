@@ -1,4 +1,4 @@
-import styled, { css, keyframes } from "styled-components";
+import styled from "styled-components";
 import { THEME } from "../../style/theme";
 import { DEVICE } from "../../style/media";
 
