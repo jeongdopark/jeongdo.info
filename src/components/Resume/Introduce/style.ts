@@ -31,7 +31,7 @@ const Text = styled.p`
   font-weight: 600;
 
   span {
-    color: #71717a;
+    color: ${THEME.COLOR.DEEP_GRAY};
   }
 
   @media ${DEVICE.medium} {

@@ -7,7 +7,8 @@ export const THEME = {
     WHITE: "#FFFFFF",
   },
   COLOR: {
-    GRAY: "#71717A",
+    DEEP_GRAY: "#71717A",
+    GRAY: "#F1F3F5",
     TECH_STACK: "#F1F3F5",
     HIGHLIGHT: "#121212",
     BLACK: "#121212",
