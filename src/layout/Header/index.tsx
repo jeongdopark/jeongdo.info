@@ -8,19 +8,18 @@ const Header = () => {
   const { pathname } = useLocation();
   const [routerIndex, setRouterIndex] = useState(0);
   const [isBelow, setIsBelow] = useState(false);
-  console.log(pathname);
 
   useLayoutEffect(() => {
     if (pathname === "/") setRouterIndex(0);
     else setRouterIndex(1);
 
-    if (window.scrollY > BOUNDARY && pathname === "/info") setIsBelow(true);
+    if (window.scrollY > BOUNDARY && pathname === "/resume") setIsBelow(true);
     else setIsBelow(false);
   }, []);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > BOUNDARY && pathname === "/info") setIsBelow(true);
+      if (window.scrollY > BOUNDARY && pathname === "/resume") setIsBelow(true);
       else setIsBelow(false);
     };
     window.addEventListener("scroll", handleScroll);
@@ -39,7 +38,7 @@ const Header = () => {
         break;
 
       case 1:
-        navigate("/info");
+        navigate("/resume");
         break;
     }
   };
@@ -47,7 +46,7 @@ const Header = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // 부드러운 스크롤 효과
+      behavior: "smooth",
     });
   };
 
@@ -63,7 +62,7 @@ const Header = () => {
           </S.RouterInfo>
         ) : (
           <S.RouterInfo onClick={() => routerHandler(1)} backgroundColor_index={routerIndex}>
-            info
+            resume
           </S.RouterInfo>
         )}
       </S.Router>
